@@ -1,0 +1,19 @@
+﻿<Window x:Class="EpihinVar12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EpihinVar12"
+        mc:Ignorable="d"
+        Title="BonusHunter" Height="243" Width="426">
+    <Grid>
+        <Label Content="Логин:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,50,0,0"/>
+        <TextBox x:Name="loginTextBox" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,54,0,0" Width="200"/>
+
+        <Label Content="Пароль:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,100,0,0"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,108,0,0" Width="200"/>
+
+        <Button Content="Войти" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,155,0,0" Width="74" Click="LoginButton_Click"/>
+        <Label Content="BonusHunter" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
